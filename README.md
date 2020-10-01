@@ -1,2 +1,2 @@
 # rl-matlab-code
-the code RL circuit and its response
+The Code RL Circuit & Its Response...
