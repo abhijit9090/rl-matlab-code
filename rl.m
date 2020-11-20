@@ -9,8 +9,8 @@ Iout=Iin*exp(-t/T);
 plot(t,Iout)
 xlabel("time")
 ylabel("amplpitue")
-l1=8
-l2=6
+l1=9
+l2=3
 T1=l1/r
 T2=l2/r
 Iout1=Iin*exp(-t/T1);
@@ -18,5 +18,5 @@ Iout2=Iin*exp(-t/T2);
 hold on
 plot(t,Iout1)
 plot(t,Iout2)
-legend('l=10','l1=8','l2=6')
+legend('l=10','l1=9','l2=3')
 print('plot','-dpdf')
